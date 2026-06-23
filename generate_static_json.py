@@ -29,9 +29,8 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 # Baseline PSA farmgate price series (sits next to this script in the data repo).
 BASELINE_CSV = os.path.join(BASE_DIR, "clean_psa_farmgate_prices.csv")
 
-# Live Ilocos Region rice price table (Bantay Presyo) + local demo fallback.
+# Live Ilocos Region rice price table (Bantay Presyo).
 BANTAY_PRESYO_URL = "http://www.bantaypresyo.da.gov.ph/tbl_rice.php"
-MOCK_HTML_PATH = os.path.join(BASE_DIR, "mock_da_bulletin.html")
 
 # Table targets on the Bantay Presyo page.
 PRIMARY_MARKET = "LAOAG"          # preferred price column
@@ -106,7 +105,12 @@ def parse_rice_price(html):
 
 
 def scrape_da_bulletin():
-    """Attempts Live scrape -> Demo scrape -> None (caller falls back to CSV)."""
+    """
+    Attempt the LIVE Bantay Presyo scrape only. Returns a fresh row on success,
+    or None when the site is down / has no usable price — in which case the
+    caller trains on the baseline CSV alone, so the forecast is anchored to the
+    LAST REAL RECORDED price rather than a fabricated mock value.
+    """
     try:
         headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
         resp = requests.get(BANTAY_PRESYO_URL, headers=headers, timeout=10)
@@ -120,18 +124,7 @@ def scrape_da_bulletin():
     except Exception as e:
         print(f"[scraper] Live fetch failed: {e}", flush=True)
 
-    print("[scraper] Activating local mock HTML fallback (demo mode).", flush=True)
-    try:
-        with open(MOCK_HTML_PATH, "r", encoding="utf-8") as fh:
-            price = parse_rice_price(fh.read())
-        if price is not None:
-            record_date = pd.Timestamp.today().normalize().replace(day=1)
-            print(f"[scraper] Scraped {price} for {record_date.date()} (DEMO mock HTML).", flush=True)
-            return pd.DataFrame({"record_date": [record_date], "price": [price]})
-    except Exception as mock_e:
-        print(f"[scraper] Mock fallback unavailable: {mock_e}", flush=True)
-
-    print("[scraper] No usable price found anywhere. Falling back to CSV only.", flush=True)
+    print("[scraper] No live price — anchoring to the last recorded CSV price.", flush=True)
     return None
 
 

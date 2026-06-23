@@ -1,33 +1,33 @@
 {
   "status": "success",
-  "data_source": "PSA baseline CSV + live DA scrape",
-  "last_trained_date": "2026-06-01",
-  "training_rows": 61,
-  "generated_at": "2026-06-23T05:36:21.208042Z",
+  "data_source": "PSA baseline CSV",
+  "last_trained_date": "2025-12-01",
+  "training_rows": 60,
+  "generated_at": "2026-06-23T06:18:44Z",
   "forecast": [
     {
-      "month": "2026-07-01",
-      "predicted_price": 26.12
+      "month": "2026-01-01",
+      "predicted_price": 21.38
     },
     {
-      "month": "2026-08-01",
-      "predicted_price": 26.54
+      "month": "2026-02-01",
+      "predicted_price": 21.35
     },
     {
-      "month": "2026-09-01",
-      "predicted_price": 26.77
+      "month": "2026-03-01",
+      "predicted_price": 21.32
     },
     {
-      "month": "2026-10-01",
-      "predicted_price": 26.82
+      "month": "2026-04-01",
+      "predicted_price": 21.29
     },
     {
-      "month": "2026-11-01",
-      "predicted_price": 26.71
+      "month": "2026-05-01",
+      "predicted_price": 21.27
     },
     {
-      "month": "2026-12-01",
-      "predicted_price": 26.45
+      "month": "2026-06-01",
+      "predicted_price": 21.25
     }
   ]
 }
