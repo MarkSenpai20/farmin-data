@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Bantay Presyo — Rice (MOCK SNAPSHOT)</title>
+</head>
+<body>
+  <h2>DA Bantay Presyo — Prevailing Retail Price of Rice (MOCK)</h2>
+  <!--
+    LOCAL MOCK of http://bantaypresyo.da.gov.ph/tbl_rice.php used as a
+    defense-day fallback and for offline selector testing. It mirrors the live
+    page structure: market names as COLUMN HEADERS, commodities as ROWS.
+
+    Target row : "COMMERCIAL (LOCAL) Regular Milled"
+    Laoag City : PHP 25.50  <-- the scraper should grab THIS value.
+
+    Tip: to test the Laoag -> Batac fallback, change the Laoag cell in the
+    target row below from "&#8369; 25.50" to "N/A" and re-run test_scraper.py;
+    it should then return 24.75 (the Batac value).
+  -->
+  <table border="1" cellpadding="6">
+    <thead>
+      <tr>
+        <th>COMMODITY</th>
+        <th>LAOAG CITY COMMERCIAL COMPLEX</th>
+        <th>CITY OF BATAC PUBLIC MARKET</th>
+        <th>CURRIMAO PUBLIC MARKET</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>COMMERCIAL (LOCAL) Special</td>
+        <td>&#8369; 52.00</td>
+        <td>50.00</td>
+        <td>N/A</td>
+      </tr>
+      <tr>
+        <td>COMMERCIAL (LOCAL) Premium</td>
+        <td>45.00</td>
+        <td>44.50</td>
+        <td>46.00</td>
+      </tr>
+      <tr>
+        <td>COMMERCIAL (LOCAL) Regular Milled</td>
+        <td>&#8369; 25.50</td>
+        <td>24.75</td>
+        <td>N/A</td>
+      </tr>
+      <tr>
+        <td>NFA (LOCAL) Regular Milled</td>
+        <td>N/A</td>
+        <td>N/A</td>
+        <td>N/A</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>

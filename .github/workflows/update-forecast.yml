@@ -1,0 +1,49 @@
+name: Update FarmIn forecast
+
+# Regenerates forecast.json + history.json and commits them back to this repo.
+# The Flutter app reads those files directly over their raw URL, so there is no
+# always-on server and no cold start.
+on:
+  schedule:
+    # Daily at 21:00 UTC == 05:00 the next day in the Philippines (UTC+8).
+    - cron: "0 21 * * *"
+  workflow_dispatch: {}   # lets you run it on demand from the Actions tab
+
+permissions:
+  contents: write          # required so the job can commit the refreshed JSON
+
+# Avoid overlapping runs racing to push.
+concurrency:
+  group: update-forecast
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Generate forecast.json + history.json
+        run: python generate_static_json.py
+
+      - name: Commit & push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add forecast.json history.json
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore: refresh forecast ($(date -u +%Y-%m-%d))"
+            git push
+          fi
