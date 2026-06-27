@@ -3,7 +3,7 @@
   "data_source": "PSA baseline CSV",
   "last_trained_date": "2025-12-01",
   "training_rows": 60,
-  "generated_at": "2026-06-26T22:12:30Z",
+  "generated_at": "2026-06-27T22:01:54Z",
   "forecast": [
     {
       "month": "2026-01-01",
