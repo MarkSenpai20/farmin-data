@@ -12,6 +12,11 @@ Flutter app reads plain static files over a raw URL (no always-on server, no
 cold start). The JSON shapes are byte-compatible with what the app already
 parses from /forecast and /history.
 
+PRICE BASIS — the model is trained on PSA FARMGATE prices, and `forecast`
+predicts farmgate prices. The live DA Bantay Presyo scrape returns RETAIL
+prices, which are a different basis entirely; it is reported separately under
+`market_price` and never enters the training data.
+
 Run locally with:  python generate_static_json.py
 """
 
@@ -106,10 +111,19 @@ def parse_rice_price(html):
 
 def scrape_da_bulletin():
     """
-    Attempt the LIVE Bantay Presyo scrape only. Returns a fresh row on success,
-    or None when the site is down / has no usable price — in which case the
-    caller trains on the baseline CSV alone, so the forecast is anchored to the
-    LAST REAL RECORDED price rather than a fabricated mock value.
+    Attempt the LIVE Bantay Presyo scrape. Returns {"price", "observed_on"} on
+    success, or None when the site is down / has no usable price.
+
+    IMPORTANT — this value is NOT training data. Bantay Presyo publishes RETAIL
+    market prices; the PSA baseline series is FARMGATE (what a trader pays the
+    farmer at the field). The two are different price bases and differ by a
+    wide margin, so appending a retail observation to a farmgate series would
+    put a step change into the very last point the ARIMA model sees and drag
+    the whole forecast with it.
+
+    It is therefore reported alongside the forecast as a separate, clearly
+    labelled "today's market price" reference, and the model stays trained on
+    farmgate data only.
     """
     try:
         headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
@@ -117,14 +131,14 @@ def scrape_da_bulletin():
         resp.raise_for_status()
         price = parse_rice_price(resp.text)
         if price is not None:
-            record_date = pd.Timestamp.today().normalize().replace(day=1)
-            print(f"[scraper] Scraped {price} for {record_date.date()} (live Bantay Presyo).", flush=True)
-            return pd.DataFrame({"record_date": [record_date], "price": [price]})
+            observed_on = pd.Timestamp.today().normalize()
+            print(f"[scraper] Retail reference {price} on {observed_on.date()} (live Bantay Presyo).", flush=True)
+            return {"price": price, "observed_on": observed_on.strftime("%Y-%m-%d")}
         print("[scraper] Live site connected, but couldn't find the rice data.", flush=True)
     except Exception as e:
         print(f"[scraper] Live fetch failed: {e}", flush=True)
 
-    print("[scraper] No live price — anchoring to the last recorded CSV price.", flush=True)
+    print("[scraper] No live retail price available — forecast is unaffected.", flush=True)
     return None
 
 
@@ -145,14 +159,12 @@ def main():
     from pmdarima import auto_arima  # heavy import kept local to main()
 
     df = load_baseline_dataframe()
-    data_source = "PSA baseline CSV"
+    data_source = "PSA farmgate series (monthly)"
 
-    scraped = scrape_da_bulletin()
-    if scraped is not None and not scraped.empty:
-        df = pd.concat([df, scraped], ignore_index=True)
-        df = df.drop_duplicates(subset="record_date", keep="last")
-        data_source = "PSA baseline CSV + live DA scrape"
-        print("[data] Merged scraped row(s) into the training set.", flush=True)
+    # Retail reference only — deliberately NOT merged into the training frame.
+    # See scrape_da_bulletin() for why mixing retail into farmgate corrupts the
+    # model. The forecast is trained on farmgate data and nothing else.
+    market_price = scrape_da_bulletin()
 
     df = (
         df.dropna(subset=["price"])
@@ -193,10 +205,21 @@ def main():
     forecast_payload = {
         "status": "success",
         "data_source": data_source,
+        "price_basis": "farmgate",          # what `forecast` predicts
         "last_trained_date": last_date.strftime("%Y-%m-%d"),
         "training_rows": training_rows,
         "generated_at": generated_at,
         "forecast": forecast,
+        # Separate live reference, null when the scrape found nothing. Never
+        # feeds the model — a different price basis to everything above.
+        "market_price": {
+            "price": market_price["price"],
+            "observed_on": market_price["observed_on"],
+            "basis": "retail",
+            "commodity": TARGET_COMMODITY,
+            "market": f"{PRIMARY_MARKET} (fallback {FALLBACK_MARKET})",
+            "source": "DA Bantay Presyo",
+        } if market_price else None,
     }
     history_payload = {
         "status": "success",
