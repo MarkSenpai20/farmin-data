@@ -16,33 +16,33 @@
       2,
       12
     ],
-    "aic": 639.79
+    "aic": 640.21
   },
-  "generated_at": "2026-08-04T13:16:12Z",
+  "generated_at": "2026-08-04T22:10:16Z",
   "forecast": [
     {
       "month": "2026-07-01",
-      "predicted_price": 25.17
+      "predicted_price": 25.28
     },
     {
       "month": "2026-08-01",
-      "predicted_price": 24.78
+      "predicted_price": 25.12
     },
     {
       "month": "2026-09-01",
-      "predicted_price": 24.5
+      "predicted_price": 25.01
     },
     {
       "month": "2026-10-01",
-      "predicted_price": 24.73
+      "predicted_price": 25.44
     },
     {
       "month": "2026-11-01",
-      "predicted_price": 25.23
+      "predicted_price": 26.05
     },
     {
       "month": "2026-12-01",
-      "predicted_price": 25.11
+      "predicted_price": 26.09
     }
   ],
   "market_price": {
