@@ -18,7 +18,7 @@
     ],
     "aic": 640.21
   },
-  "generated_at": "2026-08-04T22:10:16Z",
+  "generated_at": "2026-08-05T22:11:58Z",
   "forecast": [
     {
       "month": "2026-07-01",
@@ -48,11 +48,11 @@
   "market_price": {
     "basis": "retail",
     "region": "Region I (Ilocos Region)",
-    "observed_on": "2026-08-04",
+    "observed_on": "2026-08-05",
     "source": "DA Bantay Presyo",
     "markets_total": 16,
-    "grades_reporting": 7,
-    "readings_total": 48,
+    "grades_reporting": 6,
+    "readings_total": 47,
     "commodity": "COMMERCIAL (LOCAL) Regular Milled",
     "headline_scope": "Ilocos Norte",
     "headline": {
@@ -148,13 +148,13 @@
         "specification": "5% BROKEN",
         "headline_scope": "Region I (Ilocos Region)",
         "headline": {
-          "average": 55.8,
+          "average": 56.2,
           "min": 52.0,
           "max": 60.0,
           "markets_reporting": 5
         },
         "region_summary": {
-          "average": 55.8,
+          "average": 56.2,
           "min": 52.0,
           "max": 60.0,
           "markets_reporting": 5
@@ -167,7 +167,7 @@
             "markets_reporting": 1
           },
           "Pangasinan": {
-            "average": 54.75,
+            "average": 55.25,
             "min": 52.0,
             "max": 60.0,
             "markets_reporting": 4
@@ -187,7 +187,7 @@
           {
             "market": "MALIMGAS PUBLIC MARKET (DAGUPAN CITY)",
             "province": "Pangasinan",
-            "price": 52.0
+            "price": 54.0
           },
           {
             "market": "SAN CARLOS NEW PUBLIC MARKET",
@@ -253,40 +253,6 @@
             "market": "SAN CARLOS NEW PUBLIC MARKET",
             "province": "Pangasinan",
             "price": 55.0
-          }
-        ]
-      },
-      {
-        "commodity": "COMMERCIAL (IMPORTED) Well Milled",
-        "label": "Well Milled",
-        "origin": "Imported",
-        "specification": "1-19% BRAN STREAK",
-        "headline_scope": "Region I (Ilocos Region)",
-        "headline": {
-          "average": 52.0,
-          "min": 52.0,
-          "max": 52.0,
-          "markets_reporting": 1
-        },
-        "region_summary": {
-          "average": 52.0,
-          "min": 52.0,
-          "max": 52.0,
-          "markets_reporting": 1
-        },
-        "by_province": {
-          "Pangasinan": {
-            "average": 52.0,
-            "min": 52.0,
-            "max": 52.0,
-            "markets_reporting": 1
-          }
-        },
-        "markets": [
-          {
-            "market": "ALAMINOS NEPO ALLEY MARKET(ALAMINOS CITY)",
-            "province": "Pangasinan",
-            "price": 52.0
           }
         ]
       },
@@ -573,7 +539,7 @@
           "markets_reporting": 2
         },
         "region_summary": {
-          "average": 49.09,
+          "average": 49.0,
           "min": 41.0,
           "max": 60.0,
           "markets_reporting": 11
@@ -598,7 +564,7 @@
             "markets_reporting": 3
           },
           "Pangasinan": {
-            "average": 45.5,
+            "average": 45.25,
             "min": 41.0,
             "max": 50.0,
             "markets_reporting": 4
@@ -658,7 +624,7 @@
           {
             "market": "URDANETA CITY PUBLIC MARKET",
             "province": "Pangasinan",
-            "price": 48.0
+            "price": 47.0
           }
         ]
       }
