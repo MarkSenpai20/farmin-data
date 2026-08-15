@@ -1,54 +1,54 @@
 {
   "status": "success",
-  "data_source": "PSA farmgate CSV snapshot (OpenSTAT unavailable)",
+  "data_source": "PSA OpenSTAT \u2014 Palay farmgate, Ilocos Norte (monthly)",
   "price_basis": "farmgate",
-  "last_trained_date": "2025-12-01",
-  "training_rows": 60,
+  "last_trained_date": "2026-07-01",
+  "training_rows": 199,
   "model": {
     "order": [
+      2,
       1,
-      0,
-      0
+      2
     ],
     "seasonal_order": [
-      0,
+      2,
       0,
       0,
       12
     ],
-    "aic": 220.85
+    "aic": 641.5
   },
-  "generated_at": "2026-08-14T21:22:59Z",
+  "generated_at": "2026-08-15T21:20:06Z",
   "forecast": [
     {
-      "month": "2026-01-01",
-      "predicted_price": 21.38
+      "month": "2026-08-01",
+      "predicted_price": 23.8
     },
     {
-      "month": "2026-02-01",
-      "predicted_price": 21.35
+      "month": "2026-09-01",
+      "predicted_price": 23.17
     },
     {
-      "month": "2026-03-01",
-      "predicted_price": 21.32
+      "month": "2026-10-01",
+      "predicted_price": 23.0
     },
     {
-      "month": "2026-04-01",
-      "predicted_price": 21.29
+      "month": "2026-11-01",
+      "predicted_price": 23.5
     },
     {
-      "month": "2026-05-01",
-      "predicted_price": 21.27
+      "month": "2026-12-01",
+      "predicted_price": 23.5
     },
     {
-      "month": "2026-06-01",
-      "predicted_price": 21.25
+      "month": "2027-01-01",
+      "predicted_price": 24.53
     }
   ],
   "market_price": {
     "basis": "retail",
     "region": "Region I (Ilocos Region)",
-    "observed_on": "2026-08-14",
+    "observed_on": "2026-08-15",
     "source": "DA Bantay Presyo",
     "markets_total": 16,
     "grades_reporting": 7,
@@ -573,9 +573,9 @@
           "markets_reporting": 2
         },
         "region_summary": {
-          "average": 49.09,
+          "average": 48.64,
           "min": 41.0,
-          "max": 55.0,
+          "max": 54.0,
           "markets_reporting": 11
         },
         "by_province": {
@@ -592,9 +592,9 @@
             "markets_reporting": 2
           },
           "La Union": {
-            "average": 52.33,
+            "average": 50.67,
             "min": 48.0,
-            "max": 55.0,
+            "max": 54.0,
             "markets_reporting": 3
           },
           "Pangasinan": {
@@ -638,7 +638,7 @@
           {
             "market": "SAN FERNANDO CITY WET MARKET",
             "province": "La Union",
-            "price": 55.0
+            "price": 50.0
           },
           {
             "market": "ALAMINOS NEPO ALLEY MARKET(ALAMINOS CITY)",
@@ -664,7 +664,900 @@
       }
     ]
   },
-  "wholesale": null,
-  "stocks": null,
-  "costs": null
+  "wholesale": {
+    "basis": "wholesale",
+    "commodity": "Regular Milled Rice",
+    "region": "Region I (Ilocos Region)",
+    "source": "PSA OpenSTAT",
+    "latest": {
+      "record_date": "2026-07-01",
+      "price": 44.49
+    },
+    "series": [
+      {
+        "record_date": "2010-01-01",
+        "price": 27.47
+      },
+      {
+        "record_date": "2010-02-01",
+        "price": 28.0
+      },
+      {
+        "record_date": "2010-03-01",
+        "price": 28.67
+      },
+      {
+        "record_date": "2010-04-01",
+        "price": 28.67
+      },
+      {
+        "record_date": "2010-05-01",
+        "price": 28.33
+      },
+      {
+        "record_date": "2010-06-01",
+        "price": 28.0
+      },
+      {
+        "record_date": "2010-07-01",
+        "price": 28.0
+      },
+      {
+        "record_date": "2010-08-01",
+        "price": 28.0
+      },
+      {
+        "record_date": "2010-09-01",
+        "price": 28.0
+      },
+      {
+        "record_date": "2010-10-01",
+        "price": 28.0
+      },
+      {
+        "record_date": "2010-11-01",
+        "price": 28.0
+      },
+      {
+        "record_date": "2010-12-01",
+        "price": 28.67
+      },
+      {
+        "record_date": "2011-01-01",
+        "price": 28.87
+      },
+      {
+        "record_date": "2011-02-01",
+        "price": 29.0
+      },
+      {
+        "record_date": "2011-03-01",
+        "price": 29.0
+      },
+      {
+        "record_date": "2011-04-01",
+        "price": 28.87
+      },
+      {
+        "record_date": "2011-05-01",
+        "price": 29.0
+      },
+      {
+        "record_date": "2011-06-01",
+        "price": 29.33
+      },
+      {
+        "record_date": "2011-07-01",
+        "price": 29.6
+      },
+      {
+        "record_date": "2011-08-01",
+        "price": 29.83
+      },
+      {
+        "record_date": "2011-09-01",
+        "price": 30.0
+      },
+      {
+        "record_date": "2011-10-01",
+        "price": 29.87
+      },
+      {
+        "record_date": "2011-11-01",
+        "price": 29.17
+      },
+      {
+        "record_date": "2011-12-01",
+        "price": 29.07
+      },
+      {
+        "record_date": "2012-01-01",
+        "price": 29.33
+      },
+      {
+        "record_date": "2012-02-01",
+        "price": 29.42
+      },
+      {
+        "record_date": "2012-03-01",
+        "price": 29.33
+      },
+      {
+        "record_date": "2012-04-01",
+        "price": 29.33
+      },
+      {
+        "record_date": "2012-05-01",
+        "price": 29.42
+      },
+      {
+        "record_date": "2012-06-01",
+        "price": 29.07
+      },
+      {
+        "record_date": "2012-07-01",
+        "price": 29.25
+      },
+      {
+        "record_date": "2012-08-01",
+        "price": 30.33
+      },
+      {
+        "record_date": "2012-09-01",
+        "price": 31.0
+      },
+      {
+        "record_date": "2012-10-01",
+        "price": 30.83
+      },
+      {
+        "record_date": "2012-11-01",
+        "price": 30.67
+      },
+      {
+        "record_date": "2012-12-01",
+        "price": 30.6
+      },
+      {
+        "record_date": "2013-01-01",
+        "price": 30.67
+      },
+      {
+        "record_date": "2013-02-01",
+        "price": 30.5
+      },
+      {
+        "record_date": "2013-03-01",
+        "price": 30.33
+      },
+      {
+        "record_date": "2013-04-01",
+        "price": 30.33
+      },
+      {
+        "record_date": "2013-05-01",
+        "price": 30.33
+      },
+      {
+        "record_date": "2013-06-01",
+        "price": 30.33
+      },
+      {
+        "record_date": "2013-07-01",
+        "price": 30.58
+      },
+      {
+        "record_date": "2013-08-01",
+        "price": 31.27
+      },
+      {
+        "record_date": "2013-09-01",
+        "price": 32.42
+      },
+      {
+        "record_date": "2013-10-01",
+        "price": 31.83
+      },
+      {
+        "record_date": "2013-11-01",
+        "price": 31.47
+      },
+      {
+        "record_date": "2013-12-01",
+        "price": 31.67
+      },
+      {
+        "record_date": "2014-01-01",
+        "price": 31.83
+      },
+      {
+        "record_date": "2014-02-01",
+        "price": 32.08
+      },
+      {
+        "record_date": "2014-03-01",
+        "price": 33.27
+      },
+      {
+        "record_date": "2014-04-01",
+        "price": 34.83
+      },
+      {
+        "record_date": "2014-05-01",
+        "price": 35.67
+      },
+      {
+        "record_date": "2014-06-01",
+        "price": 36.33
+      },
+      {
+        "record_date": "2014-07-01",
+        "price": 36.64
+      },
+      {
+        "record_date": "2014-08-01",
+        "price": 36.69
+      },
+      {
+        "record_date": "2014-09-01",
+        "price": 36.68
+      },
+      {
+        "record_date": "2014-10-01",
+        "price": 36.17
+      },
+      {
+        "record_date": "2014-11-01",
+        "price": 35.97
+      },
+      {
+        "record_date": "2014-12-01",
+        "price": 36.57
+      },
+      {
+        "record_date": "2015-01-01",
+        "price": 36.16
+      },
+      {
+        "record_date": "2015-02-01",
+        "price": 35.93
+      },
+      {
+        "record_date": "2015-03-01",
+        "price": 35.03
+      },
+      {
+        "record_date": "2015-04-01",
+        "price": 34.86
+      },
+      {
+        "record_date": "2015-05-01",
+        "price": 34.94
+      },
+      {
+        "record_date": "2015-06-01",
+        "price": 35.15
+      },
+      {
+        "record_date": "2015-07-01",
+        "price": 34.52
+      },
+      {
+        "record_date": "2015-08-01",
+        "price": 35.2
+      },
+      {
+        "record_date": "2015-09-01",
+        "price": 35.35
+      },
+      {
+        "record_date": "2015-10-01",
+        "price": 34.98
+      },
+      {
+        "record_date": "2015-11-01",
+        "price": 34.2
+      },
+      {
+        "record_date": "2015-12-01",
+        "price": 34.4
+      },
+      {
+        "record_date": "2016-01-01",
+        "price": 34.56
+      },
+      {
+        "record_date": "2016-02-01",
+        "price": 34.33
+      },
+      {
+        "record_date": "2016-03-01",
+        "price": 34.06
+      },
+      {
+        "record_date": "2016-04-01",
+        "price": 33.22
+      },
+      {
+        "record_date": "2016-05-01",
+        "price": 33.54
+      },
+      {
+        "record_date": "2016-06-01",
+        "price": 33.88
+      },
+      {
+        "record_date": "2016-07-01",
+        "price": 34.35
+      },
+      {
+        "record_date": "2016-08-01",
+        "price": 34.0
+      },
+      {
+        "record_date": "2016-09-01",
+        "price": 33.97
+      },
+      {
+        "record_date": "2016-10-01",
+        "price": 33.33
+      },
+      {
+        "record_date": "2016-11-01",
+        "price": 33.6
+      },
+      {
+        "record_date": "2016-12-01",
+        "price": 33.36
+      },
+      {
+        "record_date": "2017-01-01",
+        "price": 33.5
+      },
+      {
+        "record_date": "2017-02-01",
+        "price": 34.76
+      },
+      {
+        "record_date": "2017-03-01",
+        "price": 34.72
+      },
+      {
+        "record_date": "2017-04-01",
+        "price": 34.83
+      },
+      {
+        "record_date": "2017-05-01",
+        "price": 34.86
+      },
+      {
+        "record_date": "2017-06-01",
+        "price": 34.9
+      },
+      {
+        "record_date": "2017-07-01",
+        "price": 34.88
+      },
+      {
+        "record_date": "2017-08-01",
+        "price": 34.9
+      },
+      {
+        "record_date": "2017-09-01",
+        "price": 34.98
+      },
+      {
+        "record_date": "2017-10-01",
+        "price": 34.38
+      },
+      {
+        "record_date": "2017-11-01",
+        "price": 32.5
+      },
+      {
+        "record_date": "2017-12-01",
+        "price": 32.53
+      },
+      {
+        "record_date": "2018-01-01",
+        "price": 32.5
+      },
+      {
+        "record_date": "2018-02-01",
+        "price": 36.18
+      },
+      {
+        "record_date": "2018-03-01",
+        "price": 36.16
+      },
+      {
+        "record_date": "2018-04-01",
+        "price": 35.3
+      },
+      {
+        "record_date": "2018-05-01",
+        "price": 36.8
+      },
+      {
+        "record_date": "2018-06-01",
+        "price": 36.8
+      },
+      {
+        "record_date": "2018-07-01",
+        "price": 37.12
+      },
+      {
+        "record_date": "2018-08-01",
+        "price": 37.5
+      },
+      {
+        "record_date": "2018-09-01",
+        "price": 38.55
+      },
+      {
+        "record_date": "2018-10-01",
+        "price": 38.35
+      },
+      {
+        "record_date": "2018-11-01",
+        "price": 37.9
+      },
+      {
+        "record_date": "2018-12-01",
+        "price": 36.78
+      },
+      {
+        "record_date": "2019-01-01",
+        "price": 36.4
+      },
+      {
+        "record_date": "2019-02-01",
+        "price": 36.3
+      },
+      {
+        "record_date": "2019-03-01",
+        "price": 35.72
+      },
+      {
+        "record_date": "2019-04-01",
+        "price": 35.7
+      },
+      {
+        "record_date": "2019-05-01",
+        "price": 35.62
+      },
+      {
+        "record_date": "2019-06-01",
+        "price": 35.43
+      },
+      {
+        "record_date": "2019-07-01",
+        "price": 35.1
+      },
+      {
+        "record_date": "2019-08-01",
+        "price": 35.4
+      },
+      {
+        "record_date": "2019-09-01",
+        "price": 35.75
+      },
+      {
+        "record_date": "2019-10-01",
+        "price": 35.73
+      },
+      {
+        "record_date": "2019-11-01",
+        "price": 35.5
+      },
+      {
+        "record_date": "2019-12-01",
+        "price": 34.65
+      },
+      {
+        "record_date": "2020-01-01",
+        "price": 34.52
+      },
+      {
+        "record_date": "2020-02-01",
+        "price": 34.28
+      },
+      {
+        "record_date": "2020-03-01",
+        "price": 33.6
+      },
+      {
+        "record_date": "2020-04-01",
+        "price": 33.6
+      },
+      {
+        "record_date": "2020-05-01",
+        "price": 33.5
+      },
+      {
+        "record_date": "2020-06-01",
+        "price": 34.3
+      },
+      {
+        "record_date": "2020-07-01",
+        "price": 34.37
+      },
+      {
+        "record_date": "2020-08-01",
+        "price": 34.34
+      },
+      {
+        "record_date": "2020-09-01",
+        "price": 34.3
+      },
+      {
+        "record_date": "2020-10-01",
+        "price": 34.4
+      },
+      {
+        "record_date": "2020-11-01",
+        "price": 34.4
+      },
+      {
+        "record_date": "2020-12-01",
+        "price": 34.38
+      },
+      {
+        "record_date": "2021-01-01",
+        "price": 34.3
+      },
+      {
+        "record_date": "2021-02-01",
+        "price": 34.05
+      },
+      {
+        "record_date": "2021-03-01",
+        "price": 34.55
+      },
+      {
+        "record_date": "2021-04-01",
+        "price": 34.26
+      },
+      {
+        "record_date": "2021-05-01",
+        "price": 34.03
+      },
+      {
+        "record_date": "2021-06-01",
+        "price": 34.25
+      },
+      {
+        "record_date": "2021-07-01",
+        "price": 34.35
+      },
+      {
+        "record_date": "2021-08-01",
+        "price": 34.9
+      },
+      {
+        "record_date": "2021-09-01",
+        "price": 34.67
+      },
+      {
+        "record_date": "2021-10-01",
+        "price": 34.18
+      },
+      {
+        "record_date": "2021-11-01",
+        "price": 34.95
+      },
+      {
+        "record_date": "2021-12-01",
+        "price": 33.65
+      },
+      {
+        "record_date": "2022-01-01",
+        "price": 34.63
+      },
+      {
+        "record_date": "2022-02-01",
+        "price": 34.56
+      },
+      {
+        "record_date": "2022-03-01",
+        "price": 35.1
+      },
+      {
+        "record_date": "2022-04-01",
+        "price": 34.98
+      },
+      {
+        "record_date": "2022-05-01",
+        "price": 34.93
+      },
+      {
+        "record_date": "2022-06-01",
+        "price": 35.69
+      },
+      {
+        "record_date": "2022-07-01",
+        "price": 36.22
+      },
+      {
+        "record_date": "2022-08-01",
+        "price": 36.31
+      },
+      {
+        "record_date": "2022-09-01",
+        "price": 36.03
+      },
+      {
+        "record_date": "2022-10-01",
+        "price": 36.07
+      },
+      {
+        "record_date": "2022-11-01",
+        "price": 35.78
+      },
+      {
+        "record_date": "2022-12-01",
+        "price": 34.18
+      },
+      {
+        "record_date": "2023-01-01",
+        "price": 35.4
+      },
+      {
+        "record_date": "2023-02-01",
+        "price": 35.74
+      },
+      {
+        "record_date": "2023-03-01",
+        "price": 36.26
+      },
+      {
+        "record_date": "2023-04-01",
+        "price": 36.49
+      },
+      {
+        "record_date": "2023-05-01",
+        "price": 37.4
+      },
+      {
+        "record_date": "2023-06-01",
+        "price": 38.33
+      },
+      {
+        "record_date": "2023-07-01",
+        "price": 38.97
+      },
+      {
+        "record_date": "2023-08-01",
+        "price": 39.67
+      },
+      {
+        "record_date": "2023-09-01",
+        "price": 39.93
+      },
+      {
+        "record_date": "2023-10-01",
+        "price": 39.52
+      },
+      {
+        "record_date": "2023-11-01",
+        "price": 39.67
+      },
+      {
+        "record_date": "2023-12-01",
+        "price": 40.49
+      },
+      {
+        "record_date": "2024-01-01",
+        "price": 41.95
+      },
+      {
+        "record_date": "2024-02-01",
+        "price": 42.67
+      },
+      {
+        "record_date": "2024-03-01",
+        "price": 42.83
+      },
+      {
+        "record_date": "2024-04-01",
+        "price": 42.58
+      },
+      {
+        "record_date": "2024-05-01",
+        "price": 43.03
+      },
+      {
+        "record_date": "2024-06-01",
+        "price": 43.77
+      },
+      {
+        "record_date": "2024-07-01",
+        "price": 43.33
+      },
+      {
+        "record_date": "2024-08-01",
+        "price": 43.16
+      },
+      {
+        "record_date": "2024-09-01",
+        "price": 42.54
+      },
+      {
+        "record_date": "2024-10-01",
+        "price": 42.6
+      },
+      {
+        "record_date": "2024-11-01",
+        "price": 42.79
+      },
+      {
+        "record_date": "2024-12-01",
+        "price": 43.41
+      },
+      {
+        "record_date": "2025-01-01",
+        "price": 40.79
+      },
+      {
+        "record_date": "2025-02-01",
+        "price": 40.2
+      },
+      {
+        "record_date": "2025-03-01",
+        "price": 39.53
+      },
+      {
+        "record_date": "2025-04-01",
+        "price": 39.1
+      },
+      {
+        "record_date": "2025-05-01",
+        "price": 38.96
+      },
+      {
+        "record_date": "2025-06-01",
+        "price": 38.75
+      },
+      {
+        "record_date": "2025-07-01",
+        "price": 37.34
+      },
+      {
+        "record_date": "2025-08-01",
+        "price": 35.55
+      },
+      {
+        "record_date": "2025-09-01",
+        "price": 35.39
+      },
+      {
+        "record_date": "2025-10-01",
+        "price": 35.16
+      },
+      {
+        "record_date": "2025-11-01",
+        "price": 35.65
+      },
+      {
+        "record_date": "2025-12-01",
+        "price": 37.61
+      },
+      {
+        "record_date": "2026-01-01",
+        "price": 40.11
+      },
+      {
+        "record_date": "2026-02-01",
+        "price": 44.68
+      },
+      {
+        "record_date": "2026-03-01",
+        "price": 47.71
+      },
+      {
+        "record_date": "2026-04-01",
+        "price": 46.69
+      },
+      {
+        "record_date": "2026-05-01",
+        "price": 44.19
+      },
+      {
+        "record_date": "2026-06-01",
+        "price": 43.53
+      },
+      {
+        "record_date": "2026-07-01",
+        "price": 44.49
+      }
+    ]
+  },
+  "stocks": {
+    "region": "Region I (Ilocos Region)",
+    "unit": "metric tons",
+    "source": "PSA OpenSTAT",
+    "latest": {
+      "month": "2026-07",
+      "total": 243907.99,
+      "household": 58970.26,
+      "commercial": 157270.39,
+      "nfa": 27667.34
+    },
+    "change_pct_mom": 69.3,
+    "series": [
+      {
+        "month": "2026-01",
+        "total": 343878.81,
+        "household": 155033.93,
+        "commercial": 152881.42,
+        "nfa": 35963.45
+      },
+      {
+        "month": "2026-02",
+        "total": 191614.6,
+        "household": 99476.86,
+        "commercial": 56877.11,
+        "nfa": 35260.63
+      },
+      {
+        "month": "2026-03",
+        "total": 156796.12,
+        "household": 95683.96,
+        "commercial": 26288.62,
+        "nfa": 34823.55
+      },
+      {
+        "month": "2026-04",
+        "total": 117413.51,
+        "household": 68381.84,
+        "commercial": 18208.15,
+        "nfa": 30823.52
+      },
+      {
+        "month": "2026-05",
+        "total": 151737.84,
+        "household": 76315.57,
+        "commercial": 46598.45,
+        "nfa": 28823.81
+      },
+      {
+        "month": "2026-06",
+        "total": 144108.72,
+        "household": 80845.17,
+        "commercial": 34905.5,
+        "nfa": 28358.05
+      },
+      {
+        "month": "2026-07",
+        "total": 243907.99,
+        "household": 58970.26,
+        "commercial": 157270.39,
+        "nfa": 27667.34
+      }
+    ]
+  },
+  "costs": {
+    "year": 2025,
+    "region": "Region I (Ilocos Region)",
+    "crop": "Palay",
+    "season": "Average of both cropping seasons",
+    "unit": "PHP per hectare (cost_per_kg in PHP per kilogram)",
+    "source": "PSA OpenSTAT \u2014 Costs and Returns",
+    "history_years": [
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "cash_costs": 36695.37,
+    "seeds": 1937.14,
+    "fertilizer": 8525.74,
+    "pesticides": 1096.81,
+    "hired_labor": 18368.56,
+    "total_costs": 65519.69,
+    "gross_returns": 86281.52,
+    "net_returns": 20761.82,
+    "net_profit_cost_ratio": 0.32,
+    "cost_per_kg": 13.63
+  }
 }
