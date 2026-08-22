@@ -16,39 +16,39 @@
       0,
       12
     ],
-    "aic": 640.88
+    "aic": 641.5
   },
-  "generated_at": "2026-08-21T21:22:37Z",
+  "generated_at": "2026-08-22T21:20:01Z",
   "forecast": [
     {
       "month": "2026-08-01",
-      "predicted_price": 23.86
+      "predicted_price": 23.8
     },
     {
       "month": "2026-09-01",
-      "predicted_price": 23.28
+      "predicted_price": 23.17
     },
     {
       "month": "2026-10-01",
-      "predicted_price": 23.12
+      "predicted_price": 23.0
     },
     {
       "month": "2026-11-01",
-      "predicted_price": 23.79
+      "predicted_price": 23.5
     },
     {
       "month": "2026-12-01",
-      "predicted_price": 23.89
+      "predicted_price": 23.5
     },
     {
       "month": "2027-01-01",
-      "predicted_price": 25.06
+      "predicted_price": 24.53
     }
   ],
   "market_price": {
     "basis": "retail",
     "region": "Region I (Ilocos Region)",
-    "observed_on": "2026-08-20",
+    "observed_on": "2026-08-21",
     "source": "DA Bantay Presyo",
     "markets_total": 16,
     "grades_reporting": 7,
@@ -308,7 +308,7 @@
           "markets_reporting": 1
         },
         "region_summary": {
-          "average": 53.18,
+          "average": 52.73,
           "min": 50.0,
           "max": 60.0,
           "markets_reporting": 11
@@ -321,9 +321,9 @@
             "markets_reporting": 1
           },
           "Ilocos Sur": {
-            "average": 53.0,
+            "average": 51.33,
             "min": 50.0,
-            "max": 55.0,
+            "max": 54.0,
             "markets_reporting": 3
           },
           "La Union": {
@@ -358,7 +358,7 @@
           {
             "market": "VIGAN CITY PUBLIC MARKET",
             "province": "Ilocos Sur",
-            "price": 55.0
+            "price": 50.0
           },
           {
             "market": "AGOO, LA UNION PUBLIC MARKET",
@@ -567,34 +567,34 @@
         "specification": "1-19% BRAN STREAK",
         "headline_scope": "Ilocos Norte",
         "headline": {
-          "average": 52.5,
+          "average": 49.5,
           "min": 45.0,
-          "max": 60.0,
+          "max": 54.0,
           "markets_reporting": 2
         },
         "region_summary": {
-          "average": 49.27,
+          "average": 48.09,
           "min": 41.0,
-          "max": 60.0,
+          "max": 54.0,
           "markets_reporting": 11
         },
         "by_province": {
           "Ilocos Norte": {
-            "average": 52.5,
+            "average": 49.5,
             "min": 45.0,
-            "max": 60.0,
+            "max": 54.0,
             "markets_reporting": 2
           },
           "Ilocos Sur": {
-            "average": 49.0,
+            "average": 48.0,
             "min": 46.0,
-            "max": 52.0,
+            "max": 50.0,
             "markets_reporting": 2
           },
           "La Union": {
-            "average": 52.33,
+            "average": 50.67,
             "min": 48.0,
-            "max": 55.0,
+            "max": 54.0,
             "markets_reporting": 3
           },
           "Pangasinan": {
@@ -613,7 +613,7 @@
           {
             "market": "LAOAG CITY COMMERCIAL COMPLEX",
             "province": "Ilocos Norte",
-            "price": 60.0
+            "price": 54.0
           },
           {
             "market": "CANDON CITY FARMERS PUBLIC MARKET",
@@ -623,7 +623,7 @@
           {
             "market": "VIGAN CITY PUBLIC MARKET",
             "province": "Ilocos Sur",
-            "price": 52.0
+            "price": 50.0
           },
           {
             "market": "AGOO, LA UNION PUBLIC MARKET",
@@ -638,7 +638,7 @@
           {
             "market": "SAN FERNANDO CITY WET MARKET",
             "province": "La Union",
-            "price": 55.0
+            "price": 50.0
           },
           {
             "market": "ALAMINOS NEPO ALLEY MARKET(ALAMINOS CITY)",
