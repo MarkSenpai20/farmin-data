@@ -16,39 +16,39 @@
       0,
       12
     ],
-    "aic": 641.5
+    "aic": 640.88
   },
-  "generated_at": "2026-08-29T03:05:19Z",
+  "generated_at": "2026-08-29T22:59:54Z",
   "forecast": [
     {
       "month": "2026-08-01",
-      "predicted_price": 23.8
+      "predicted_price": 23.86
     },
     {
       "month": "2026-09-01",
-      "predicted_price": 23.17
+      "predicted_price": 23.28
     },
     {
       "month": "2026-10-01",
-      "predicted_price": 23.0
+      "predicted_price": 23.12
     },
     {
       "month": "2026-11-01",
-      "predicted_price": 23.5
+      "predicted_price": 23.79
     },
     {
       "month": "2026-12-01",
-      "predicted_price": 23.5
+      "predicted_price": 23.89
     },
     {
       "month": "2027-01-01",
-      "predicted_price": 24.53
+      "predicted_price": 25.06
     }
   ],
   "market_price": {
     "basis": "retail",
     "region": "Region I (Ilocos Region)",
-    "observed_on": "2026-08-28",
+    "observed_on": "2026-08-29",
     "source": "DA Bantay Presyo",
     "markets_total": 16,
     "grades_reporting": 7,
@@ -148,14 +148,14 @@
         "specification": "5% BROKEN",
         "headline_scope": "Region I (Ilocos Region)",
         "headline": {
-          "average": 55.83,
-          "min": 52.0,
+          "average": 55.33,
+          "min": 50.0,
           "max": 60.0,
           "markets_reporting": 6
         },
         "region_summary": {
-          "average": 55.83,
-          "min": 52.0,
+          "average": 55.33,
+          "min": 50.0,
           "max": 60.0,
           "markets_reporting": 6
         },
@@ -167,8 +167,8 @@
             "markets_reporting": 2
           },
           "Pangasinan": {
-            "average": 55.0,
-            "min": 52.0,
+            "average": 54.25,
+            "min": 50.0,
             "max": 60.0,
             "markets_reporting": 4
           }
@@ -192,7 +192,7 @@
           {
             "market": "MALIMGAS PUBLIC MARKET (DAGUPAN CITY)",
             "province": "Pangasinan",
-            "price": 53.0
+            "price": 50.0
           },
           {
             "market": "SAN CARLOS NEW PUBLIC MARKET",
@@ -213,13 +213,13 @@
         "specification": "WHITE RICE",
         "headline_scope": "Region I (Ilocos Region)",
         "headline": {
-          "average": 61.25,
+          "average": 60.75,
           "min": 55.0,
           "max": 68.0,
           "markets_reporting": 4
         },
         "region_summary": {
-          "average": 61.25,
+          "average": 60.75,
           "min": 55.0,
           "max": 68.0,
           "markets_reporting": 4
@@ -232,7 +232,7 @@
             "markets_reporting": 1
           },
           "Pangasinan": {
-            "average": 59.0,
+            "average": 58.33,
             "min": 55.0,
             "max": 65.0,
             "markets_reporting": 3
@@ -252,7 +252,7 @@
           {
             "market": "MALIMGAS PUBLIC MARKET (DAGUPAN CITY)",
             "province": "Pangasinan",
-            "price": 57.0
+            "price": 55.0
           },
           {
             "market": "SAN CARLOS NEW PUBLIC MARKET",
@@ -567,22 +567,22 @@
         "specification": "1-19% BRAN STREAK",
         "headline_scope": "Ilocos Norte",
         "headline": {
-          "average": 52.5,
+          "average": 49.5,
           "min": 45.0,
-          "max": 60.0,
+          "max": 54.0,
           "markets_reporting": 2
         },
         "region_summary": {
-          "average": 49.3,
+          "average": 48.7,
           "min": 41.0,
-          "max": 60.0,
+          "max": 55.0,
           "markets_reporting": 10
         },
         "by_province": {
           "Ilocos Norte": {
-            "average": 52.5,
+            "average": 49.5,
             "min": 45.0,
-            "max": 60.0,
+            "max": 54.0,
             "markets_reporting": 2
           },
           "Ilocos Sur": {
@@ -613,7 +613,7 @@
           {
             "market": "LAOAG CITY COMMERCIAL COMPLEX",
             "province": "Ilocos Norte",
-            "price": 60.0
+            "price": 54.0
           },
           {
             "market": "CANDON CITY FARMERS PUBLIC MARKET",
