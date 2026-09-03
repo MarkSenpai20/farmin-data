@@ -18,7 +18,7 @@
     ],
     "aic": 640.88
   },
-  "generated_at": "2026-09-02T22:59:11Z",
+  "generated_at": "2026-09-03T22:59:15Z",
   "forecast": [
     {
       "month": "2026-08-01",
@@ -48,7 +48,7 @@
   "market_price": {
     "basis": "retail",
     "region": "Region I (Ilocos Region)",
-    "observed_on": "2026-09-02",
+    "observed_on": "2026-09-03",
     "source": "DA Bantay Presyo",
     "markets_total": 16,
     "grades_reporting": 7,
@@ -148,13 +148,13 @@
         "specification": "5% BROKEN",
         "headline_scope": "Region I (Ilocos Region)",
         "headline": {
-          "average": 54.83,
+          "average": 55.17,
           "min": 48.0,
           "max": 60.0,
           "markets_reporting": 6
         },
         "region_summary": {
-          "average": 54.83,
+          "average": 55.17,
           "min": 48.0,
           "max": 60.0,
           "markets_reporting": 6
@@ -167,7 +167,7 @@
             "markets_reporting": 2
           },
           "Pangasinan": {
-            "average": 53.5,
+            "average": 54.0,
             "min": 48.0,
             "max": 60.0,
             "markets_reporting": 4
@@ -192,7 +192,7 @@
           {
             "market": "MALIMGAS PUBLIC MARKET (DAGUPAN CITY)",
             "province": "Pangasinan",
-            "price": 51.0
+            "price": 53.0
           },
           {
             "market": "SAN CARLOS NEW PUBLIC MARKET",
@@ -567,22 +567,22 @@
         "specification": "1-19% BRAN STREAK",
         "headline_scope": "Ilocos Norte",
         "headline": {
-          "average": 50.0,
+          "average": 55.0,
           "min": 50.0,
-          "max": 50.0,
+          "max": 60.0,
           "markets_reporting": 2
         },
         "region_summary": {
-          "average": 48.8,
+          "average": 49.8,
           "min": 41.0,
-          "max": 55.0,
+          "max": 60.0,
           "markets_reporting": 10
         },
         "by_province": {
           "Ilocos Norte": {
-            "average": 50.0,
+            "average": 55.0,
             "min": 50.0,
-            "max": 50.0,
+            "max": 60.0,
             "markets_reporting": 2
           },
           "Ilocos Sur": {
@@ -613,7 +613,7 @@
           {
             "market": "LAOAG CITY COMMERCIAL COMPLEX",
             "province": "Ilocos Norte",
-            "price": 50.0
+            "price": 60.0
           },
           {
             "market": "CANDON CITY FARMERS PUBLIC MARKET",
