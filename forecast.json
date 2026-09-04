@@ -18,7 +18,7 @@
     ],
     "aic": 640.88
   },
-  "generated_at": "2026-09-03T22:59:15Z",
+  "generated_at": "2026-09-04T22:47:24Z",
   "forecast": [
     {
       "month": "2026-08-01",
@@ -48,7 +48,7 @@
   "market_price": {
     "basis": "retail",
     "region": "Region I (Ilocos Region)",
-    "observed_on": "2026-09-03",
+    "observed_on": "2026-09-04",
     "source": "DA Bantay Presyo",
     "markets_total": 16,
     "grades_reporting": 7,
@@ -62,7 +62,7 @@
       "markets_reporting": 1
     },
     "region_summary": {
-      "average": 44.11,
+      "average": 44.0,
       "min": 35.0,
       "max": 50.0,
       "markets_reporting": 9
@@ -87,7 +87,7 @@
         "markets_reporting": 2
       },
       "Pangasinan": {
-        "average": 43.75,
+        "average": 43.5,
         "min": 40.0,
         "max": 48.0,
         "markets_reporting": 4
@@ -137,7 +137,7 @@
       {
         "market": "URDANETA CITY PUBLIC MARKET",
         "province": "Pangasinan",
-        "price": 45.0
+        "price": 44.0
       }
     ],
     "grades": [
@@ -148,14 +148,14 @@
         "specification": "5% BROKEN",
         "headline_scope": "Region I (Ilocos Region)",
         "headline": {
-          "average": 55.17,
-          "min": 48.0,
+          "average": 56.33,
+          "min": 53.0,
           "max": 60.0,
           "markets_reporting": 6
         },
         "region_summary": {
-          "average": 55.17,
-          "min": 48.0,
+          "average": 56.33,
+          "min": 53.0,
           "max": 60.0,
           "markets_reporting": 6
         },
@@ -167,8 +167,8 @@
             "markets_reporting": 2
           },
           "Pangasinan": {
-            "average": 54.0,
-            "min": 48.0,
+            "average": 55.75,
+            "min": 53.0,
             "max": 60.0,
             "markets_reporting": 4
           }
@@ -202,7 +202,7 @@
           {
             "market": "URDANETA CITY PUBLIC MARKET",
             "province": "Pangasinan",
-            "price": 48.0
+            "price": 55.0
           }
         ]
       },
@@ -410,7 +410,7 @@
           "markets_reporting": 1
         },
         "region_summary": {
-          "average": 44.11,
+          "average": 44.0,
           "min": 35.0,
           "max": 50.0,
           "markets_reporting": 9
@@ -435,7 +435,7 @@
             "markets_reporting": 2
           },
           "Pangasinan": {
-            "average": 43.75,
+            "average": 43.5,
             "min": 40.0,
             "max": 48.0,
             "markets_reporting": 4
@@ -485,7 +485,7 @@
           {
             "market": "URDANETA CITY PUBLIC MARKET",
             "province": "Pangasinan",
-            "price": 45.0
+            "price": 44.0
           }
         ]
       },
@@ -496,13 +496,13 @@
         "specification": "WHITE RICE",
         "headline_scope": "Region I (Ilocos Region)",
         "headline": {
-          "average": 59.83,
+          "average": 59.67,
           "min": 53.0,
           "max": 68.0,
           "markets_reporting": 6
         },
         "region_summary": {
-          "average": 59.83,
+          "average": 59.67,
           "min": 53.0,
           "max": 68.0,
           "markets_reporting": 6
@@ -521,9 +521,9 @@
             "markets_reporting": 2
           },
           "Pangasinan": {
-            "average": 55.0,
+            "average": 54.5,
             "min": 53.0,
-            "max": 57.0,
+            "max": 56.0,
             "markets_reporting": 2
           }
         },
@@ -551,7 +551,7 @@
           {
             "market": "MALIMGAS PUBLIC MARKET (DAGUPAN CITY)",
             "province": "Pangasinan",
-            "price": 57.0
+            "price": 56.0
           },
           {
             "market": "SAN CARLOS NEW PUBLIC MARKET",
@@ -573,7 +573,7 @@
           "markets_reporting": 2
         },
         "region_summary": {
-          "average": 49.8,
+          "average": 49.7,
           "min": 41.0,
           "max": 60.0,
           "markets_reporting": 10
@@ -598,7 +598,7 @@
             "markets_reporting": 3
           },
           "Pangasinan": {
-            "average": 45.0,
+            "average": 44.67,
             "min": 41.0,
             "max": 50.0,
             "markets_reporting": 3
@@ -648,7 +648,7 @@
           {
             "market": "MALIMGAS PUBLIC MARKET (DAGUPAN CITY)",
             "province": "Pangasinan",
-            "price": 44.0
+            "price": 43.0
           },
           {
             "market": "SAN CARLOS NEW PUBLIC MARKET",
