@@ -18,7 +18,7 @@
     ],
     "aic": 640.88
   },
-  "generated_at": "2026-09-04T22:47:24Z",
+  "generated_at": "2026-09-05T22:39:20Z",
   "forecast": [
     {
       "month": "2026-08-01",
@@ -48,7 +48,7 @@
   "market_price": {
     "basis": "retail",
     "region": "Region I (Ilocos Region)",
-    "observed_on": "2026-09-04",
+    "observed_on": "2026-09-05",
     "source": "DA Bantay Presyo",
     "markets_total": 16,
     "grades_reporting": 7,
@@ -308,7 +308,7 @@
           "markets_reporting": 1
         },
         "region_summary": {
-          "average": 54.0,
+          "average": 54.09,
           "min": 50.0,
           "max": 60.0,
           "markets_reporting": 11
@@ -321,8 +321,8 @@
             "markets_reporting": 1
           },
           "Ilocos Sur": {
-            "average": 55.0,
-            "min": 53.0,
+            "average": 54.67,
+            "min": 52.0,
             "max": 58.0,
             "markets_reporting": 3
           },
@@ -333,7 +333,7 @@
             "markets_reporting": 3
           },
           "Pangasinan": {
-            "average": 52.5,
+            "average": 53.0,
             "min": 50.0,
             "max": 58.0,
             "markets_reporting": 4
@@ -358,7 +358,7 @@
           {
             "market": "VIGAN CITY PUBLIC MARKET",
             "province": "Ilocos Sur",
-            "price": 53.0
+            "price": 52.0
           },
           {
             "market": "AGOO, LA UNION PUBLIC MARKET",
@@ -383,7 +383,7 @@
           {
             "market": "MALIMGAS PUBLIC MARKET (DAGUPAN CITY)",
             "province": "Pangasinan",
-            "price": 52.0
+            "price": 54.0
           },
           {
             "market": "SAN CARLOS NEW PUBLIC MARKET",
@@ -567,22 +567,22 @@
         "specification": "1-19% BRAN STREAK",
         "headline_scope": "Ilocos Norte",
         "headline": {
-          "average": 55.0,
+          "average": 52.0,
           "min": 50.0,
-          "max": 60.0,
+          "max": 54.0,
           "markets_reporting": 2
         },
         "region_summary": {
-          "average": 49.7,
+          "average": 49.2,
           "min": 41.0,
-          "max": 60.0,
+          "max": 55.0,
           "markets_reporting": 10
         },
         "by_province": {
           "Ilocos Norte": {
-            "average": 55.0,
+            "average": 52.0,
             "min": 50.0,
-            "max": 60.0,
+            "max": 54.0,
             "markets_reporting": 2
           },
           "Ilocos Sur": {
@@ -598,7 +598,7 @@
             "markets_reporting": 3
           },
           "Pangasinan": {
-            "average": 44.67,
+            "average": 45.0,
             "min": 41.0,
             "max": 50.0,
             "markets_reporting": 3
@@ -613,7 +613,7 @@
           {
             "market": "LAOAG CITY COMMERCIAL COMPLEX",
             "province": "Ilocos Norte",
-            "price": 60.0
+            "price": 54.0
           },
           {
             "market": "CANDON CITY FARMERS PUBLIC MARKET",
@@ -648,7 +648,7 @@
           {
             "market": "MALIMGAS PUBLIC MARKET (DAGUPAN CITY)",
             "province": "Pangasinan",
-            "price": 43.0
+            "price": 44.0
           },
           {
             "market": "SAN CARLOS NEW PUBLIC MARKET",
