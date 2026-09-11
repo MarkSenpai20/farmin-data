@@ -18,7 +18,7 @@
     ],
     "aic": 641.5
   },
-  "generated_at": "2026-09-10T22:56:43Z",
+  "generated_at": "2026-09-11T22:58:49Z",
   "forecast": [
     {
       "month": "2026-08-01",
@@ -48,7 +48,7 @@
   "market_price": {
     "basis": "retail",
     "region": "Region I (Ilocos Region)",
-    "observed_on": "2026-09-10",
+    "observed_on": "2026-09-11",
     "source": "DA Bantay Presyo",
     "markets_total": 16,
     "grades_reporting": 7,
@@ -303,7 +303,7 @@
           "markets_reporting": 1
         },
         "region_summary": {
-          "average": 53.45,
+          "average": 53.55,
           "min": 48.0,
           "max": 60.0,
           "markets_reporting": 11
@@ -316,8 +316,8 @@
             "markets_reporting": 1
           },
           "Ilocos Sur": {
-            "average": 53.33,
-            "min": 52.0,
+            "average": 53.67,
+            "min": 53.0,
             "max": 54.0,
             "markets_reporting": 3
           },
@@ -353,7 +353,7 @@
           {
             "market": "VIGAN CITY PUBLIC MARKET",
             "province": "Ilocos Sur",
-            "price": 52.0
+            "price": 53.0
           },
           {
             "market": "AGOO, LA UNION PUBLIC MARKET",
