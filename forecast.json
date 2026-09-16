@@ -18,7 +18,7 @@
     ],
     "aic": 645.54
   },
-  "generated_at": "2026-09-15T23:24:17Z",
+  "generated_at": "2026-09-16T23:32:48Z",
   "forecast": [
     {
       "month": "2026-09-01",
@@ -48,7 +48,7 @@
   "market_price": {
     "basis": "retail",
     "region": "Region I (Ilocos Region)",
-    "observed_on": "2026-09-15",
+    "observed_on": "2026-09-16",
     "source": "DA Bantay Presyo",
     "markets_total": 16,
     "grades_reporting": 7,
@@ -303,7 +303,7 @@
           "markets_reporting": 1
         },
         "region_summary": {
-          "average": 53.45,
+          "average": 53.82,
           "min": 48.0,
           "max": 60.0,
           "markets_reporting": 11
@@ -316,9 +316,9 @@
             "markets_reporting": 1
           },
           "Ilocos Sur": {
-            "average": 54.33,
+            "average": 55.0,
             "min": 54.0,
-            "max": 55.0,
+            "max": 56.0,
             "markets_reporting": 3
           },
           "La Union": {
@@ -328,8 +328,8 @@
             "markets_reporting": 3
           },
           "Pangasinan": {
-            "average": 52.0,
-            "min": 48.0,
+            "average": 52.5,
+            "min": 50.0,
             "max": 58.0,
             "markets_reporting": 4
           }
@@ -343,7 +343,7 @@
           {
             "market": "CANDON CITY FARMERS PUBLIC MARKET",
             "province": "Ilocos Sur",
-            "price": 54.0
+            "price": 56.0
           },
           {
             "market": "TAGUDIN YELLOW MARKET",
@@ -388,7 +388,7 @@
           {
             "market": "URDANETA CITY PUBLIC MARKET",
             "province": "Pangasinan",
-            "price": 48.0
+            "price": 50.0
           }
         ]
       },
@@ -567,22 +567,22 @@
         "specification": "1-19% BRAN STREAK",
         "headline_scope": "Ilocos Norte",
         "headline": {
-          "average": 49.5,
+          "average": 52.5,
           "min": 45.0,
-          "max": 54.0,
+          "max": 60.0,
           "markets_reporting": 2
         },
         "region_summary": {
-          "average": 48.55,
+          "average": 49.09,
           "min": 41.0,
-          "max": 55.0,
+          "max": 60.0,
           "markets_reporting": 11
         },
         "by_province": {
           "Ilocos Norte": {
-            "average": 49.5,
+            "average": 52.5,
             "min": 45.0,
-            "max": 54.0,
+            "max": 60.0,
             "markets_reporting": 2
           },
           "Ilocos Sur": {
@@ -613,7 +613,7 @@
           {
             "market": "LAOAG CITY COMMERCIAL COMPLEX",
             "province": "Ilocos Norte",
-            "price": 54.0
+            "price": 60.0
           },
           {
             "market": "CANDON CITY FARMERS PUBLIC MARKET",
