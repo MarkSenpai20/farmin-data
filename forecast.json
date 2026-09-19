@@ -18,7 +18,7 @@
     ],
     "aic": 645.54
   },
-  "generated_at": "2026-09-18T23:01:22Z",
+  "generated_at": "2026-09-19T22:40:20Z",
   "forecast": [
     {
       "month": "2026-09-01",
@@ -48,7 +48,7 @@
   "market_price": {
     "basis": "retail",
     "region": "Region I (Ilocos Region)",
-    "observed_on": "2026-09-18",
+    "observed_on": "2026-09-19",
     "source": "DA Bantay Presyo",
     "markets_total": 16,
     "grades_reporting": 7,
@@ -491,21 +491,21 @@
         "specification": "WHITE RICE",
         "headline_scope": "Region I (Ilocos Region)",
         "headline": {
-          "average": 58.71,
+          "average": 59.14,
           "min": 53.0,
           "max": 68.0,
           "markets_reporting": 7
         },
         "region_summary": {
-          "average": 58.71,
+          "average": 59.14,
           "min": 53.0,
           "max": 68.0,
           "markets_reporting": 7
         },
         "by_province": {
           "Ilocos Sur": {
-            "average": 57.5,
-            "min": 55.0,
+            "average": 59.0,
+            "min": 58.0,
             "max": 60.0,
             "markets_reporting": 2
           },
@@ -531,7 +531,7 @@
           {
             "market": "VIGAN CITY PUBLIC MARKET",
             "province": "Ilocos Sur",
-            "price": 55.0
+            "price": 58.0
           },
           {
             "market": "AGOO PUBLIC MARKET",
