@@ -18,7 +18,7 @@
     ],
     "aic": 645.54
   },
-  "generated_at": "2026-09-19T22:40:20Z",
+  "generated_at": "2026-09-20T22:59:17Z",
   "forecast": [
     {
       "month": "2026-09-01",
@@ -148,14 +148,14 @@
         "specification": "5% BROKEN",
         "headline_scope": "Region I (Ilocos Region)",
         "headline": {
-          "average": 57.0,
-          "min": 55.0,
+          "average": 56.0,
+          "min": 50.0,
           "max": 60.0,
           "markets_reporting": 5
         },
         "region_summary": {
-          "average": 57.0,
-          "min": 55.0,
+          "average": 56.0,
+          "min": 50.0,
           "max": 60.0,
           "markets_reporting": 5
         },
@@ -167,8 +167,8 @@
             "markets_reporting": 1
           },
           "Pangasinan": {
-            "average": 56.25,
-            "min": 55.0,
+            "average": 55.0,
+            "min": 50.0,
             "max": 60.0,
             "markets_reporting": 4
           }
@@ -187,7 +187,7 @@
           {
             "market": "MALIMGAS PUBLIC MARKET (DAGUPAN CITY)",
             "province": "Pangasinan",
-            "price": 55.0
+            "price": 50.0
           },
           {
             "market": "SAN CARLOS NEW PUBLIC MARKET",
@@ -573,7 +573,7 @@
           "markets_reporting": 2
         },
         "region_summary": {
-          "average": 48.64,
+          "average": 48.73,
           "min": 41.0,
           "max": 55.0,
           "markets_reporting": 11
@@ -598,7 +598,7 @@
             "markets_reporting": 3
           },
           "Pangasinan": {
-            "average": 45.5,
+            "average": 45.75,
             "min": 41.0,
             "max": 52.0,
             "markets_reporting": 4
@@ -648,7 +648,7 @@
           {
             "market": "MALIMGAS PUBLIC MARKET (DAGUPAN CITY)",
             "province": "Pangasinan",
-            "price": 43.0
+            "price": 44.0
           },
           {
             "market": "SAN CARLOS NEW PUBLIC MARKET",
