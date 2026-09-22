@@ -18,7 +18,7 @@
     ],
     "aic": 645.54
   },
-  "generated_at": "2026-09-21T23:49:52Z",
+  "generated_at": "2026-09-22T23:29:59Z",
   "forecast": [
     {
       "month": "2026-09-01",
@@ -48,7 +48,7 @@
   "market_price": {
     "basis": "retail",
     "region": "Region I (Ilocos Region)",
-    "observed_on": "2026-09-21",
+    "observed_on": "2026-09-22",
     "source": "DA Bantay Presyo",
     "markets_total": 16,
     "grades_reporting": 7,
@@ -62,7 +62,7 @@
       "markets_reporting": 1
     },
     "region_summary": {
-      "average": 43.78,
+      "average": 44.0,
       "min": 35.0,
       "max": 50.0,
       "markets_reporting": 9
@@ -87,7 +87,7 @@
         "markets_reporting": 2
       },
       "Pangasinan": {
-        "average": 43.0,
+        "average": 43.5,
         "min": 40.0,
         "max": 46.0,
         "markets_reporting": 4
@@ -137,7 +137,7 @@
       {
         "market": "URDANETA CITY PUBLIC MARKET",
         "province": "Pangasinan",
-        "price": 44.0
+        "price": 46.0
       }
     ],
     "grades": [
@@ -297,22 +297,22 @@
         "specification": "5% BROKEN",
         "headline_scope": "Ilocos Norte",
         "headline": {
-          "average": 48.0,
-          "min": 48.0,
-          "max": 48.0,
+          "average": 45.0,
+          "min": 45.0,
+          "max": 45.0,
           "markets_reporting": 1
         },
         "region_summary": {
-          "average": 53.55,
-          "min": 48.0,
+          "average": 53.27,
+          "min": 45.0,
           "max": 60.0,
           "markets_reporting": 11
         },
         "by_province": {
           "Ilocos Norte": {
-            "average": 48.0,
-            "min": 48.0,
-            "max": 48.0,
+            "average": 45.0,
+            "min": 45.0,
+            "max": 45.0,
             "markets_reporting": 1
           },
           "Ilocos Sur": {
@@ -338,7 +338,7 @@
           {
             "market": "CITY OF BATAC PUBLIC MARKET",
             "province": "Ilocos Norte",
-            "price": 48.0
+            "price": 45.0
           },
           {
             "market": "CANDON CITY FARMERS PUBLIC MARKET",
@@ -405,7 +405,7 @@
           "markets_reporting": 1
         },
         "region_summary": {
-          "average": 43.78,
+          "average": 44.0,
           "min": 35.0,
           "max": 50.0,
           "markets_reporting": 9
@@ -430,7 +430,7 @@
             "markets_reporting": 2
           },
           "Pangasinan": {
-            "average": 43.0,
+            "average": 43.5,
             "min": 40.0,
             "max": 46.0,
             "markets_reporting": 4
@@ -480,7 +480,7 @@
           {
             "market": "URDANETA CITY PUBLIC MARKET",
             "province": "Pangasinan",
-            "price": 44.0
+            "price": 46.0
           }
         ]
       },
@@ -491,14 +491,14 @@
         "specification": "WHITE RICE",
         "headline_scope": "Region I (Ilocos Region)",
         "headline": {
-          "average": 59.0,
-          "min": 53.0,
+          "average": 58.57,
+          "min": 52.0,
           "max": 68.0,
           "markets_reporting": 7
         },
         "region_summary": {
-          "average": 59.0,
-          "min": 53.0,
+          "average": 58.57,
+          "min": 52.0,
           "max": 68.0,
           "markets_reporting": 7
         },
@@ -516,8 +516,8 @@
             "markets_reporting": 2
           },
           "Pangasinan": {
-            "average": 54.67,
-            "min": 53.0,
+            "average": 53.67,
+            "min": 52.0,
             "max": 56.0,
             "markets_reporting": 3
           }
@@ -556,7 +556,7 @@
           {
             "market": "URDANETA CITY PUBLIC MARKET",
             "province": "Pangasinan",
-            "price": 55.0
+            "price": 52.0
           }
         ]
       },
@@ -567,22 +567,22 @@
         "specification": "1-19% BRAN STREAK",
         "headline_scope": "Ilocos Norte",
         "headline": {
-          "average": 50.0,
-          "min": 45.0,
-          "max": 55.0,
+          "average": 48.0,
+          "min": 42.0,
+          "max": 54.0,
           "markets_reporting": 2
         },
         "region_summary": {
-          "average": 48.45,
+          "average": 48.27,
           "min": 41.0,
           "max": 55.0,
           "markets_reporting": 11
         },
         "by_province": {
           "Ilocos Norte": {
-            "average": 50.0,
-            "min": 45.0,
-            "max": 55.0,
+            "average": 48.0,
+            "min": 42.0,
+            "max": 54.0,
             "markets_reporting": 2
           },
           "Ilocos Sur": {
@@ -598,7 +598,7 @@
             "markets_reporting": 3
           },
           "Pangasinan": {
-            "average": 45.0,
+            "average": 45.5,
             "min": 41.0,
             "max": 50.0,
             "markets_reporting": 4
@@ -608,12 +608,12 @@
           {
             "market": "CITY OF BATAC PUBLIC MARKET",
             "province": "Ilocos Norte",
-            "price": 45.0
+            "price": 42.0
           },
           {
             "market": "LAOAG CITY COMMERCIAL COMPLEX",
             "province": "Ilocos Norte",
-            "price": 55.0
+            "price": 54.0
           },
           {
             "market": "CANDON CITY FARMERS PUBLIC MARKET",
@@ -658,7 +658,7 @@
           {
             "market": "URDANETA CITY PUBLIC MARKET",
             "province": "Pangasinan",
-            "price": 46.0
+            "price": 48.0
           }
         ]
       }
