@@ -18,7 +18,7 @@
     ],
     "aic": 645.54
   },
-  "generated_at": "2026-09-23T23:26:08Z",
+  "generated_at": "2026-09-24T23:46:14Z",
   "forecast": [
     {
       "month": "2026-09-01",
@@ -48,11 +48,11 @@
   "market_price": {
     "basis": "retail",
     "region": "Region I (Ilocos Region)",
-    "observed_on": "2026-09-23",
+    "observed_on": "2026-09-24",
     "source": "DA Bantay Presyo",
     "markets_total": 16,
     "grades_reporting": 7,
-    "readings_total": 48,
+    "readings_total": 49,
     "commodity": "COMMERCIAL (LOCAL) Regular Milled",
     "headline_scope": "Ilocos Norte",
     "headline": {
@@ -208,18 +208,24 @@
         "specification": "WHITE RICE",
         "headline_scope": "Region I (Ilocos Region)",
         "headline": {
-          "average": 61.0,
+          "average": 62.0,
           "min": 55.0,
           "max": 68.0,
-          "markets_reporting": 4
+          "markets_reporting": 5
         },
         "region_summary": {
-          "average": 61.0,
+          "average": 62.0,
           "min": 55.0,
           "max": 68.0,
-          "markets_reporting": 4
+          "markets_reporting": 5
         },
         "by_province": {
+          "Ilocos Sur": {
+            "average": 66.0,
+            "min": 66.0,
+            "max": 66.0,
+            "markets_reporting": 1
+          },
           "La Union": {
             "average": 68.0,
             "min": 68.0,
@@ -234,6 +240,11 @@
           }
         },
         "markets": [
+          {
+            "market": "CANDON CITY FARMERS PUBLIC MARKET",
+            "province": "Ilocos Sur",
+            "price": 66.0
+          },
           {
             "market": "SAN FERNANDO CITY WET MARKET",
             "province": "La Union",
@@ -303,7 +314,7 @@
           "markets_reporting": 1
         },
         "region_summary": {
-          "average": 53.27,
+          "average": 53.45,
           "min": 45.0,
           "max": 60.0,
           "markets_reporting": 11
@@ -316,9 +327,9 @@
             "markets_reporting": 1
           },
           "Ilocos Sur": {
-            "average": 55.0,
+            "average": 55.67,
             "min": 54.0,
-            "max": 56.0,
+            "max": 58.0,
             "markets_reporting": 3
           },
           "La Union": {
@@ -343,7 +354,7 @@
           {
             "market": "CANDON CITY FARMERS PUBLIC MARKET",
             "province": "Ilocos Sur",
-            "price": 56.0
+            "price": 58.0
           },
           {
             "market": "TAGUDIN YELLOW MARKET",
