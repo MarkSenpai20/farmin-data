@@ -18,7 +18,7 @@
     ],
     "aic": 645.54
   },
-  "generated_at": "2026-09-24T23:46:14Z",
+  "generated_at": "2026-09-25T23:49:46Z",
   "forecast": [
     {
       "month": "2026-09-01",
@@ -48,11 +48,11 @@
   "market_price": {
     "basis": "retail",
     "region": "Region I (Ilocos Region)",
-    "observed_on": "2026-09-24",
+    "observed_on": "2026-09-25",
     "source": "DA Bantay Presyo",
     "markets_total": 16,
     "grades_reporting": 7,
-    "readings_total": 49,
+    "readings_total": 48,
     "commodity": "COMMERCIAL (LOCAL) Regular Milled",
     "headline_scope": "Ilocos Norte",
     "headline": {
@@ -89,7 +89,7 @@
       "Pangasinan": {
         "average": 42.75,
         "min": 40.0,
-        "max": 46.0,
+        "max": 45.0,
         "markets_reporting": 4
       }
     },
@@ -122,7 +122,7 @@
       {
         "market": "ALAMINOS NEPO ALLEY MARKET(ALAMINOS CITY)",
         "province": "Pangasinan",
-        "price": 46.0
+        "price": 45.0
       },
       {
         "market": "MALIMGAS PUBLIC MARKET (DAGUPAN CITY)",
@@ -137,7 +137,7 @@
       {
         "market": "URDANETA CITY PUBLIC MARKET",
         "province": "Pangasinan",
-        "price": 43.0
+        "price": 44.0
       }
     ],
     "grades": [
@@ -208,24 +208,18 @@
         "specification": "WHITE RICE",
         "headline_scope": "Region I (Ilocos Region)",
         "headline": {
-          "average": 62.0,
+          "average": 61.0,
           "min": 55.0,
           "max": 68.0,
-          "markets_reporting": 5
+          "markets_reporting": 4
         },
         "region_summary": {
-          "average": 62.0,
+          "average": 61.0,
           "min": 55.0,
           "max": 68.0,
-          "markets_reporting": 5
+          "markets_reporting": 4
         },
         "by_province": {
-          "Ilocos Sur": {
-            "average": 66.0,
-            "min": 66.0,
-            "max": 66.0,
-            "markets_reporting": 1
-          },
           "La Union": {
             "average": 68.0,
             "min": 68.0,
@@ -240,11 +234,6 @@
           }
         },
         "markets": [
-          {
-            "market": "CANDON CITY FARMERS PUBLIC MARKET",
-            "province": "Ilocos Sur",
-            "price": 66.0
-          },
           {
             "market": "SAN FERNANDO CITY WET MARKET",
             "province": "La Union",
@@ -314,7 +303,7 @@
           "markets_reporting": 1
         },
         "region_summary": {
-          "average": 53.45,
+          "average": 53.27,
           "min": 45.0,
           "max": 60.0,
           "markets_reporting": 11
@@ -327,9 +316,9 @@
             "markets_reporting": 1
           },
           "Ilocos Sur": {
-            "average": 55.67,
+            "average": 55.0,
             "min": 54.0,
-            "max": 58.0,
+            "max": 56.0,
             "markets_reporting": 3
           },
           "La Union": {
@@ -354,7 +343,7 @@
           {
             "market": "CANDON CITY FARMERS PUBLIC MARKET",
             "province": "Ilocos Sur",
-            "price": 58.0
+            "price": 56.0
           },
           {
             "market": "TAGUDIN YELLOW MARKET",
@@ -443,7 +432,7 @@
           "Pangasinan": {
             "average": 42.75,
             "min": 40.0,
-            "max": 46.0,
+            "max": 45.0,
             "markets_reporting": 4
           }
         },
@@ -476,7 +465,7 @@
           {
             "market": "ALAMINOS NEPO ALLEY MARKET(ALAMINOS CITY)",
             "province": "Pangasinan",
-            "price": 46.0
+            "price": 45.0
           },
           {
             "market": "MALIMGAS PUBLIC MARKET (DAGUPAN CITY)",
@@ -491,7 +480,7 @@
           {
             "market": "URDANETA CITY PUBLIC MARKET",
             "province": "Pangasinan",
-            "price": 43.0
+            "price": 44.0
           }
         ]
       },
