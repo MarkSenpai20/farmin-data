@@ -18,7 +18,7 @@
     ],
     "aic": 645.54
   },
-  "generated_at": "2026-10-11T00:05:59Z",
+  "generated_at": "2026-10-12T00:14:11Z",
   "forecast": [
     {
       "month": "2026-09-01",
@@ -48,7 +48,7 @@
   "market_price": {
     "basis": "retail",
     "region": "Region I (Ilocos Region)",
-    "observed_on": "2026-10-10",
+    "observed_on": "2026-10-11",
     "source": "DA Bantay Presyo",
     "markets_total": 16,
     "grades_reporting": 7,
