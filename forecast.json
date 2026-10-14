@@ -18,7 +18,7 @@
     ],
     "aic": 648.08
   },
-  "generated_at": "2026-10-14T00:09:31Z",
+  "generated_at": "2026-10-14T23:41:55Z",
   "forecast": [
     {
       "month": "2026-10-01",
@@ -48,7 +48,7 @@
   "market_price": {
     "basis": "retail",
     "region": "Region I (Ilocos Region)",
-    "observed_on": "2026-10-13",
+    "observed_on": "2026-10-14",
     "source": "DA Bantay Presyo",
     "markets_total": 16,
     "grades_reporting": 7,
@@ -62,7 +62,7 @@
       "markets_reporting": 1
     },
     "region_summary": {
-      "average": 43.22,
+      "average": 43.0,
       "min": 35.0,
       "max": 50.0,
       "markets_reporting": 9
@@ -87,7 +87,7 @@
         "markets_reporting": 2
       },
       "Pangasinan": {
-        "average": 42.75,
+        "average": 42.25,
         "min": 40.0,
         "max": 45.0,
         "markets_reporting": 4
@@ -137,7 +137,7 @@
       {
         "market": "URDANETA CITY PUBLIC MARKET",
         "province": "Pangasinan",
-        "price": 44.0
+        "price": 42.0
       }
     ],
     "grades": [
@@ -303,8 +303,8 @@
           "markets_reporting": 1
         },
         "region_summary": {
-          "average": 53.55,
-          "min": 48.0,
+          "average": 53.18,
+          "min": 46.0,
           "max": 60.0,
           "markets_reporting": 11
         },
@@ -328,8 +328,8 @@
             "markets_reporting": 3
           },
           "Pangasinan": {
-            "average": 51.75,
-            "min": 50.0,
+            "average": 50.75,
+            "min": 46.0,
             "max": 55.0,
             "markets_reporting": 4
           }
@@ -388,7 +388,7 @@
           {
             "market": "URDANETA CITY PUBLIC MARKET",
             "province": "Pangasinan",
-            "price": 50.0
+            "price": 46.0
           }
         ]
       },
@@ -405,7 +405,7 @@
           "markets_reporting": 1
         },
         "region_summary": {
-          "average": 43.22,
+          "average": 43.0,
           "min": 35.0,
           "max": 50.0,
           "markets_reporting": 9
@@ -430,7 +430,7 @@
             "markets_reporting": 2
           },
           "Pangasinan": {
-            "average": 42.75,
+            "average": 42.25,
             "min": 40.0,
             "max": 45.0,
             "markets_reporting": 4
@@ -480,7 +480,7 @@
           {
             "market": "URDANETA CITY PUBLIC MARKET",
             "province": "Pangasinan",
-            "price": 44.0
+            "price": 42.0
           }
         ]
       },
@@ -491,14 +491,14 @@
         "specification": "WHITE RICE",
         "headline_scope": "Region I (Ilocos Region)",
         "headline": {
-          "average": 58.71,
-          "min": 52.0,
+          "average": 58.29,
+          "min": 50.0,
           "max": 68.0,
           "markets_reporting": 7
         },
         "region_summary": {
-          "average": 58.71,
-          "min": 52.0,
+          "average": 58.29,
+          "min": 50.0,
           "max": 68.0,
           "markets_reporting": 7
         },
@@ -516,8 +516,8 @@
             "markets_reporting": 2
           },
           "Pangasinan": {
-            "average": 54.0,
-            "min": 52.0,
+            "average": 53.0,
+            "min": 50.0,
             "max": 56.0,
             "markets_reporting": 3
           }
@@ -551,12 +551,12 @@
           {
             "market": "SAN CARLOS NEW PUBLIC MARKET",
             "province": "Pangasinan",
-            "price": 54.0
+            "price": 53.0
           },
           {
             "market": "URDANETA CITY PUBLIC MARKET",
             "province": "Pangasinan",
-            "price": 52.0
+            "price": 50.0
           }
         ]
       },
@@ -573,7 +573,7 @@
           "markets_reporting": 2
         },
         "region_summary": {
-          "average": 48.55,
+          "average": 48.36,
           "min": 41.0,
           "max": 55.0,
           "markets_reporting": 11
@@ -598,7 +598,7 @@
             "markets_reporting": 3
           },
           "Pangasinan": {
-            "average": 45.5,
+            "average": 45.0,
             "min": 41.0,
             "max": 50.0,
             "markets_reporting": 4
@@ -658,7 +658,7 @@
           {
             "market": "URDANETA CITY PUBLIC MARKET",
             "province": "Pangasinan",
-            "price": 46.0
+            "price": 44.0
           }
         ]
       }
