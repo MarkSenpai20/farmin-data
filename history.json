@@ -1,7 +1,7 @@
 {
   "status": "success",
-  "count": 200,
-  "generated_at": "2026-10-13T02:25:27Z",
+  "count": 201,
+  "generated_at": "2026-10-14T00:09:31Z",
   "history": [
     {
       "month": "2010-01-01",
@@ -802,6 +802,10 @@
     {
       "month": "2026-08-01",
       "price": 24.52
+    },
+    {
+      "month": "2026-09-01",
+      "price": 22.55
     }
   ]
 }
