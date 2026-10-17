@@ -16,39 +16,39 @@
       1,
       12
     ],
-    "aic": 648.08
+    "aic": 648.84
   },
-  "generated_at": "2026-10-16T23:15:31Z",
+  "generated_at": "2026-10-17T22:53:59Z",
   "forecast": [
     {
       "month": "2026-10-01",
-      "predicted_price": 21.87
+      "predicted_price": 21.96
     },
     {
       "month": "2026-11-01",
-      "predicted_price": 22.66
+      "predicted_price": 22.82
     },
     {
       "month": "2026-12-01",
-      "predicted_price": 23.23
+      "predicted_price": 23.36
     },
     {
       "month": "2027-01-01",
-      "predicted_price": 24.07
+      "predicted_price": 24.36
     },
     {
       "month": "2027-02-01",
-      "predicted_price": 24.08
+      "predicted_price": 24.19
     },
     {
       "month": "2027-03-01",
-      "predicted_price": 23.75
+      "predicted_price": 23.81
     }
   ],
   "market_price": {
     "basis": "retail",
     "region": "Region I (Ilocos Region)",
-    "observed_on": "2026-10-16",
+    "observed_on": "2026-10-17",
     "source": "DA Bantay Presyo",
     "markets_total": 16,
     "grades_reporting": 7,
@@ -298,7 +298,7 @@
           "markets_reporting": 1
         },
         "region_summary": {
-          "average": 53.0,
+          "average": 52.73,
           "min": 48.0,
           "max": 60.0,
           "markets_reporting": 11
@@ -311,9 +311,9 @@
             "markets_reporting": 1
           },
           "Ilocos Sur": {
-            "average": 54.33,
-            "min": 54.0,
-            "max": 55.0,
+            "average": 53.33,
+            "min": 52.0,
+            "max": 54.0,
             "markets_reporting": 3
           },
           "La Union": {
@@ -348,7 +348,7 @@
           {
             "market": "VIGAN CITY PUBLIC MARKET",
             "province": "Ilocos Sur",
-            "price": 55.0
+            "price": 52.0
           },
           {
             "market": "AGOO, LA UNION PUBLIC MARKET",
