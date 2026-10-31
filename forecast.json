@@ -16,39 +16,39 @@
       1,
       12
     ],
-    "aic": 648.08
+    "aic": 648.84
   },
-  "generated_at": "2026-10-30T00:37:29Z",
+  "generated_at": "2026-10-31T00:22:45Z",
   "forecast": [
     {
       "month": "2026-10-01",
-      "predicted_price": 21.87
+      "predicted_price": 21.96
     },
     {
       "month": "2026-11-01",
-      "predicted_price": 22.66
+      "predicted_price": 22.82
     },
     {
       "month": "2026-12-01",
-      "predicted_price": 23.23
+      "predicted_price": 23.36
     },
     {
       "month": "2027-01-01",
-      "predicted_price": 24.07
+      "predicted_price": 24.36
     },
     {
       "month": "2027-02-01",
-      "predicted_price": 24.08
+      "predicted_price": 24.19
     },
     {
       "month": "2027-03-01",
-      "predicted_price": 23.75
+      "predicted_price": 23.81
     }
   ],
   "market_price": {
     "basis": "retail",
     "region": "Region I (Ilocos Region)",
-    "observed_on": "2026-10-29",
+    "observed_on": "2026-10-30",
     "source": "DA Bantay Presyo",
     "markets_total": 16,
     "grades_reporting": 7,
@@ -562,22 +562,22 @@
         "specification": "1-19% BRAN STREAK",
         "headline_scope": "Ilocos Norte",
         "headline": {
-          "average": 48.5,
+          "average": 48.0,
           "min": 42.0,
-          "max": 55.0,
+          "max": 54.0,
           "markets_reporting": 2
         },
         "region_summary": {
-          "average": 48.27,
+          "average": 48.18,
           "min": 41.0,
           "max": 55.0,
           "markets_reporting": 11
         },
         "by_province": {
           "Ilocos Norte": {
-            "average": 48.5,
+            "average": 48.0,
             "min": 42.0,
-            "max": 55.0,
+            "max": 54.0,
             "markets_reporting": 2
           },
           "Ilocos Sur": {
@@ -608,7 +608,7 @@
           {
             "market": "LAOAG CITY COMMERCIAL COMPLEX",
             "province": "Ilocos Norte",
-            "price": 55.0
+            "price": 54.0
           },
           {
             "market": "CANDON CITY FARMERS PUBLIC MARKET",
