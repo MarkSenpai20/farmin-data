@@ -11,44 +11,44 @@
       2
     ],
     "seasonal_order": [
-      1,
-      0,
       2,
+      0,
+      1,
       12
     ],
-    "aic": 651.04
+    "aic": 648.84
   },
-  "generated_at": "2026-11-05T01:17:33Z",
+  "generated_at": "2026-11-06T01:22:33Z",
   "forecast": [
     {
       "month": "2026-10-01",
-      "predicted_price": 21.7
+      "predicted_price": 21.96
     },
     {
       "month": "2026-11-01",
-      "predicted_price": 22.3
+      "predicted_price": 22.82
     },
     {
       "month": "2026-12-01",
-      "predicted_price": 22.77
+      "predicted_price": 23.36
     },
     {
       "month": "2027-01-01",
-      "predicted_price": 23.24
+      "predicted_price": 24.36
     },
     {
       "month": "2027-02-01",
-      "predicted_price": 23.28
+      "predicted_price": 24.19
     },
     {
       "month": "2027-03-01",
-      "predicted_price": 23.17
+      "predicted_price": 23.81
     }
   ],
   "market_price": {
     "basis": "retail",
     "region": "Region I (Ilocos Region)",
-    "observed_on": "2026-11-04",
+    "observed_on": "2026-11-05",
     "source": "DA Bantay Presyo",
     "markets_total": 16,
     "grades_reporting": 7,
@@ -562,22 +562,22 @@
         "specification": "1-19% BRAN STREAK",
         "headline_scope": "Ilocos Norte",
         "headline": {
-          "average": 48.5,
+          "average": 48.0,
           "min": 42.0,
-          "max": 55.0,
+          "max": 54.0,
           "markets_reporting": 2
         },
         "region_summary": {
-          "average": 48.18,
+          "average": 48.09,
           "min": 41.0,
           "max": 55.0,
           "markets_reporting": 11
         },
         "by_province": {
           "Ilocos Norte": {
-            "average": 48.5,
+            "average": 48.0,
             "min": 42.0,
-            "max": 55.0,
+            "max": 54.0,
             "markets_reporting": 2
           },
           "Ilocos Sur": {
@@ -608,7 +608,7 @@
           {
             "market": "LAOAG CITY COMMERCIAL COMPLEX",
             "province": "Ilocos Norte",
-            "price": 55.0
+            "price": 54.0
           },
           {
             "market": "CANDON CITY FARMERS PUBLIC MARKET",
@@ -1475,84 +1475,7 @@
       }
     ]
   },
-  "stocks": {
-    "region": "Region I (Ilocos Region)",
-    "unit": "metric tons",
-    "source": "PSA OpenSTAT",
-    "latest": {
-      "month": "2026-09",
-      "total": 158861.72,
-      "household": 49409.75,
-      "commercial": 85661.5,
-      "nfa": 23790.46
-    },
-    "change_pct_mom": -2.6,
-    "series": [
-      {
-        "month": "2026-01",
-        "total": 343878.81,
-        "household": 155033.93,
-        "commercial": 152881.42,
-        "nfa": 35963.45
-      },
-      {
-        "month": "2026-02",
-        "total": 191614.6,
-        "household": 99476.86,
-        "commercial": 56877.11,
-        "nfa": 35260.63
-      },
-      {
-        "month": "2026-03",
-        "total": 156796.12,
-        "household": 95683.96,
-        "commercial": 26288.62,
-        "nfa": 34823.55
-      },
-      {
-        "month": "2026-04",
-        "total": 117413.51,
-        "household": 68381.84,
-        "commercial": 18208.15,
-        "nfa": 30823.52
-      },
-      {
-        "month": "2026-05",
-        "total": 151737.84,
-        "household": 76315.57,
-        "commercial": 46598.45,
-        "nfa": 28823.81
-      },
-      {
-        "month": "2026-06",
-        "total": 144108.72,
-        "household": 80845.17,
-        "commercial": 34905.5,
-        "nfa": 28358.05
-      },
-      {
-        "month": "2026-07",
-        "total": 243907.99,
-        "household": 58970.26,
-        "commercial": 157270.39,
-        "nfa": 27667.34
-      },
-      {
-        "month": "2026-08",
-        "total": 163111.01,
-        "household": 47220.28,
-        "commercial": 89854.54,
-        "nfa": 26036.2
-      },
-      {
-        "month": "2026-09",
-        "total": 158861.72,
-        "household": 49409.75,
-        "commercial": 85661.5,
-        "nfa": 23790.46
-      }
-    ]
-  },
+  "stocks": null,
   "costs": {
     "year": 2025,
     "region": "Region I (Ilocos Region)",
