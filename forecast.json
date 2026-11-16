@@ -11,44 +11,44 @@
       2
     ],
     "seasonal_order": [
-      1,
+      2,
       0,
-      1,
+      2,
       12
     ],
-    "aic": 648.88
+    "aic": 655.59
   },
-  "generated_at": "2026-11-15T00:45:56Z",
+  "generated_at": "2026-11-16T00:45:37Z",
   "forecast": [
     {
       "month": "2026-11-01",
-      "predicted_price": 24.03
+      "predicted_price": 23.93
     },
     {
       "month": "2026-12-01",
-      "predicted_price": 24.36
+      "predicted_price": 24.26
     },
     {
       "month": "2027-01-01",
-      "predicted_price": 25.1
+      "predicted_price": 24.62
     },
     {
       "month": "2027-02-01",
-      "predicted_price": 24.9
+      "predicted_price": 24.57
     },
     {
       "month": "2027-03-01",
-      "predicted_price": 24.33
+      "predicted_price": 24.35
     },
     {
       "month": "2027-04-01",
-      "predicted_price": 23.55
+      "predicted_price": 23.98
     }
   ],
   "market_price": {
     "basis": "retail",
     "region": "Region I (Ilocos Region)",
-    "observed_on": "2026-11-14",
+    "observed_on": "2026-11-15",
     "source": "DA Bantay Presyo",
     "markets_total": 16,
     "grades_reporting": 7,
