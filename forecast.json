@@ -11,38 +11,38 @@
       2
     ],
     "seasonal_order": [
-      2,
+      1,
       0,
-      2,
+      1,
       12
     ],
-    "aic": 655.59
+    "aic": 648.88
   },
-  "generated_at": "2026-11-19T02:16:15Z",
+  "generated_at": "2026-11-20T02:01:26Z",
   "forecast": [
     {
       "month": "2026-11-01",
-      "predicted_price": 23.93
+      "predicted_price": 24.03
     },
     {
       "month": "2026-12-01",
-      "predicted_price": 24.26
+      "predicted_price": 24.36
     },
     {
       "month": "2027-01-01",
-      "predicted_price": 24.62
+      "predicted_price": 25.1
     },
     {
       "month": "2027-02-01",
-      "predicted_price": 24.57
+      "predicted_price": 24.9
     },
     {
       "month": "2027-03-01",
-      "predicted_price": 24.35
+      "predicted_price": 24.33
     },
     {
       "month": "2027-04-01",
-      "predicted_price": 23.98
+      "predicted_price": 23.55
     }
   ],
   "market_price": null,
