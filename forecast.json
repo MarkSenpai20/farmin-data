@@ -18,7 +18,7 @@
     ],
     "aic": 655.59
   },
-  "generated_at": "2026-11-24T05:08:25Z",
+  "generated_at": "2026-11-25T03:57:33Z",
   "forecast": [
     {
       "month": "2026-11-01",
@@ -48,7 +48,7 @@
   "market_price": {
     "basis": "retail",
     "region": "Region I (Ilocos Region)",
-    "observed_on": "2026-11-15",
+    "observed_on": "2026-11-24",
     "source": "DA Bantay Presyo",
     "markets_total": 16,
     "grades_reporting": 7,
@@ -62,7 +62,7 @@
       "markets_reporting": 1
     },
     "region_summary": {
-      "average": 43.33,
+      "average": 42.89,
       "min": 35.0,
       "max": 50.0,
       "markets_reporting": 9
@@ -81,8 +81,8 @@
         "markets_reporting": 2
       },
       "La Union": {
-        "average": 44.0,
-        "min": 44.0,
+        "average": 42.0,
+        "min": 40.0,
         "max": 44.0,
         "markets_reporting": 2
       },
@@ -112,7 +112,7 @@
       {
         "market": "AGOO, LA UNION PUBLIC MARKET",
         "province": "La Union",
-        "price": 44.0
+        "price": 40.0
       },
       {
         "market": "BALAOAN PUBLIC MARKET",
@@ -148,14 +148,14 @@
         "specification": "5% BROKEN",
         "headline_scope": "Region I (Ilocos Region)",
         "headline": {
-          "average": 56.0,
-          "min": 50.0,
+          "average": 56.4,
+          "min": 52.0,
           "max": 60.0,
           "markets_reporting": 5
         },
         "region_summary": {
-          "average": 56.0,
-          "min": 50.0,
+          "average": 56.4,
+          "min": 52.0,
           "max": 60.0,
           "markets_reporting": 5
         },
@@ -167,8 +167,8 @@
             "markets_reporting": 1
           },
           "Pangasinan": {
-            "average": 55.0,
-            "min": 50.0,
+            "average": 55.5,
+            "min": 52.0,
             "max": 60.0,
             "markets_reporting": 4
           }
@@ -187,7 +187,7 @@
           {
             "market": "MALIMGAS PUBLIC MARKET (DAGUPAN CITY)",
             "province": "Pangasinan",
-            "price": 50.0
+            "price": 52.0
           },
           {
             "market": "SAN CARLOS NEW PUBLIC MARKET",
@@ -297,28 +297,28 @@
         "specification": "5% BROKEN",
         "headline_scope": "Ilocos Norte",
         "headline": {
-          "average": 45.0,
-          "min": 45.0,
-          "max": 45.0,
+          "average": 48.0,
+          "min": 48.0,
+          "max": 48.0,
           "markets_reporting": 1
         },
         "region_summary": {
-          "average": 52.91,
-          "min": 45.0,
+          "average": 53.36,
+          "min": 48.0,
           "max": 60.0,
           "markets_reporting": 11
         },
         "by_province": {
           "Ilocos Norte": {
-            "average": 45.0,
-            "min": 45.0,
-            "max": 45.0,
+            "average": 48.0,
+            "min": 48.0,
+            "max": 48.0,
             "markets_reporting": 1
           },
           "Ilocos Sur": {
-            "average": 55.0,
+            "average": 55.67,
             "min": 54.0,
-            "max": 56.0,
+            "max": 58.0,
             "markets_reporting": 3
           },
           "La Union": {
@@ -338,12 +338,12 @@
           {
             "market": "CITY OF BATAC PUBLIC MARKET",
             "province": "Ilocos Norte",
-            "price": 45.0
+            "price": 48.0
           },
           {
             "market": "CANDON CITY FARMERS PUBLIC MARKET",
             "province": "Ilocos Sur",
-            "price": 56.0
+            "price": 58.0
           },
           {
             "market": "TAGUDIN YELLOW MARKET",
@@ -405,7 +405,7 @@
           "markets_reporting": 1
         },
         "region_summary": {
-          "average": 43.33,
+          "average": 42.89,
           "min": 35.0,
           "max": 50.0,
           "markets_reporting": 9
@@ -424,8 +424,8 @@
             "markets_reporting": 2
           },
           "La Union": {
-            "average": 44.0,
-            "min": 44.0,
+            "average": 42.0,
+            "min": 40.0,
             "max": 44.0,
             "markets_reporting": 2
           },
@@ -455,7 +455,7 @@
           {
             "market": "AGOO, LA UNION PUBLIC MARKET",
             "province": "La Union",
-            "price": 44.0
+            "price": 40.0
           },
           {
             "market": "BALAOAN PUBLIC MARKET",
@@ -567,21 +567,21 @@
         "specification": "1-19% BRAN STREAK",
         "headline_scope": "Ilocos Norte",
         "headline": {
-          "average": 48.5,
-          "min": 42.0,
+          "average": 50.0,
+          "min": 45.0,
           "max": 55.0,
           "markets_reporting": 2
         },
         "region_summary": {
-          "average": 48.45,
+          "average": 48.55,
           "min": 41.0,
-          "max": 58.0,
+          "max": 55.0,
           "markets_reporting": 11
         },
         "by_province": {
           "Ilocos Norte": {
-            "average": 48.5,
-            "min": 42.0,
+            "average": 50.0,
+            "min": 45.0,
             "max": 55.0,
             "markets_reporting": 2
           },
@@ -592,13 +592,13 @@
             "markets_reporting": 2
           },
           "La Union": {
-            "average": 53.67,
+            "average": 52.33,
             "min": 48.0,
-            "max": 58.0,
+            "max": 55.0,
             "markets_reporting": 3
           },
           "Pangasinan": {
-            "average": 44.75,
+            "average": 45.25,
             "min": 41.0,
             "max": 50.0,
             "markets_reporting": 4
@@ -608,7 +608,7 @@
           {
             "market": "CITY OF BATAC PUBLIC MARKET",
             "province": "Ilocos Norte",
-            "price": 42.0
+            "price": 45.0
           },
           {
             "market": "LAOAG CITY COMMERCIAL COMPLEX",
@@ -628,7 +628,7 @@
           {
             "market": "AGOO, LA UNION PUBLIC MARKET",
             "province": "La Union",
-            "price": 58.0
+            "price": 54.0
           },
           {
             "market": "BALAOAN PUBLIC MARKET",
@@ -648,7 +648,7 @@
           {
             "market": "MALIMGAS PUBLIC MARKET (DAGUPAN CITY)",
             "province": "Pangasinan",
-            "price": 43.0
+            "price": 45.0
           },
           {
             "market": "SAN CARLOS NEW PUBLIC MARKET",
